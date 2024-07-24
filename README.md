@@ -26,7 +26,8 @@ In the end you will have: ~/.local/bin and ~/.local/src.
 Then you put all the bin and src things from this repository in your folders you just created respectively.
 
 Finally go into the ~/.local/bin, visit each folder: dwm, dmenu, dwmblocks, slock, st
-and in each run `sudo make clean install`
+and in each run:  
+`sudo make clean install`
 
 ### 5. Notifications dunst settings
 In ~/.config/dunst put file dunstrc.
