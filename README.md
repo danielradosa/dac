@@ -3,6 +3,9 @@
 This was created so if I ever decide to put Arch on other PC's my life will be easier.
 Obviously making this will take more time than just doing everything from scratch, tho' who really cares?
 
+**WARNING**   
+I DO SOMEWHAT ASSUME YOU KNOW ABOUT THIS STUFF ALREADY
+
 ### 1. Setting it all up
 
 You want to make sure to install all packages in [pkglist.txt](https://github.com/danielradosa/dac/blob/main/pkglist.txt) while pacstrapping.
