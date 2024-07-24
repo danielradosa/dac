@@ -1,0 +1,27 @@
+[global]
+# General settings
+geometry = "300x50-10+10"   # Size and position of notifications (width x height - x offset + y offset)
+font = "Open Sans 11"       # Font and size used in notifications
+opacity = 0.75               # Opacity of notifications (0.0 to 1.0)
+
+# Notification Colors
+background = "#000000"     # Black background
+foreground = "#FFFFFF"     # White text
+frame_color = "#FFFFFF"    # White border (if any)
+
+# Urgency levels
+[urgency_low]
+background = "#000000"     # Black background for low urgency
+foreground = "#FFFFFF"     # White text for low urgency
+frame_color = "#FFFFFF"    # White border for low urgency
+
+[urgency_normal]
+background = "#000000"     # Black background for normal urgency
+foreground = "#FFFFFF"     # White text for normal urgency
+frame_color = "#FFFFFF"    # White border for normal urgency
+
+[urgency_critical]
+background = "#000000"     # Black background for critical urgency
+foreground = "#FFFFFF"     # White text for critical urgency
+frame_color = "#FF0000"    # Red border for critical urgency (for emphasis)
+
