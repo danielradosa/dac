@@ -1,0 +1,8 @@
+#!/bin/sh
+
+st &
+
+e &
+
+spotify-launcher &
+
