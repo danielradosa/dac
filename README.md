@@ -21,12 +21,18 @@ Just grab all files in the dotfiles directory and put them in your 'home' direct
 ### 4. Shell scripts and desktop
 Now you want to create '.local' directory in ~/ so the path is like ~/.local,
 and then in there create 'bin' and 'src' directories.
+
 In the end you will have: ~/.local/bin and ~/.local/src.
 Then you put all the bin and src things from this repository in your folders you just created respectively.
+
+Finally go into the ~/.local/bin, visit each folder: dwm, dmenu, dwmblocks, slock, st
+and in each run `sudo make clean install`
 
 ### 5. Notifications dunst settings
 In ~/.config/dunst put file dunstrc.
 And the path ends up being '~/.config/dunst/dunstrc'.
+
+Obvioulsy after completing everything reboot your machine.
 
 ## Got questions or something ain't working?
 Definitely do not contact me. Thanks.
