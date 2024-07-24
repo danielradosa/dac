@@ -7,10 +7,10 @@ You want to make sure to install all packages in [pkglist.txt](https://github.co
 So you don't waste time after installation.
 
 ### 2. Installing AUR helper paru
-`sudo pacman -S --needed base-devel`
-`git clone https://aur.archlinux.org/paru.git`
-`cd paru`
-`makepkg -si`
+`sudo pacman -S --needed base-devel`  
+`git clone https://aur.archlinux.org/paru.git`  
+`cd paru`  
+`makepkg -si`  
 
 ### 2-2. Installing paru packages
 Check the [aurlist.txt](https://github.com/danielradosa/dac/blob/main/aurlist.txt) and install all of the packages.
