@@ -5,6 +5,7 @@ Obviously making this will take more time than just doing everything from scratc
 
 **WARNING**   
 I DO SOMEWHAT ASSUME YOU KNOW ABOUT THIS STUFF ALREADY
+ALSO DONT FORGET TO CHMOD +x to all files in bin folder
 
 ### 1. Setting it all up
 
