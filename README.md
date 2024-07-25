@@ -4,8 +4,8 @@ This was created so if I ever decide to put Arch on other PC's my life will be e
 Obviously making this will take more time than just doing everything from scratch, tho' who really cares?
 
 **WARNING**   
-I DO SOMEWHAT ASSUME YOU KNOW ABOUT THIS STUFF ALREADY
-ALSO DONT FORGET TO CHMOD +x to all files in bin folder
+I DO SOMEWHAT ASSUME YOU KNOW ABOUT THIS STUFF ALREADY  
+ALSO DONT FORGET TO CHMOD +x to all files in bin folder to make them executable
 
 ### 1. Setting it all up
 
