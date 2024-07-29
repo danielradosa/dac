@@ -1,0 +1,27 @@
+# Configuration
+BTC_API_URL="https://api.coindesk.com/v1/bpi/currentprice.json"
+LAST_PRICE_FILE="$HOME/.btc_last_price"
+SOUND_FILE="notif.mp3"
+
+# Fetch current Bitcoin price
+current_price=$(curl -s $BTC_API_URL | jq -r '.bpi.USD.rate_float')
+
+# Check if the file exists and read the last price
+if [ -f "$LAST_PRICE_FILE" ]; then
+    last_price=$(cat "$LAST_PRICE_FILE")
+else
+    last_price=0
+fi
+
+# Update the last price file
+echo "$current_price" > "$LAST_PRICE_FILE"
+
+# Check if the price has changed
+if [ "$current_price" != "$last_price" ]; then
+    # Notify the user
+    notify-send -u normal "Bitcoin Price Alert" "New BTC price: \$${current_price}" -i /usr/share/icons/gnome/48x48/status/dialog-information.png
+
+    # Play sound
+    paplay "$SOUND_FILE"
+fi
+
