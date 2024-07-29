@@ -23,7 +23,7 @@ xset -dpms
 setxkbmap -option caps:escape &
 
 # START PROGRAMS
-~/.local/bin/newlook &																# Set background and color scheme
+~/.local/bin/newlook  																# Set background and color scheme
 dwmblocks &																						# Run dwmblocks after
 picom -b --config ~/.config/picom.conf &							# Apply transparency
 dunst &																								# Notifications
