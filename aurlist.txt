@@ -1,7 +1,0 @@
-bonsai.sh-git
-paru
-paru-debug
-python-pywalfox
-snapd
-update-grub
-zsh-syntax-highlighting-git
